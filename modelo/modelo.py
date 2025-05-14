@@ -4,9 +4,10 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import os
+import pickle
 
 # Ruta a tu dataset
-DATASET_PATH = 'asl/asl_alphabet_train'
+DATASET_PATH = 'asl/asl_alphabet_train/asl_alphabet_train'
 
 # Preprocesamiento de imágenes
 img_height, img_width = 64, 64
