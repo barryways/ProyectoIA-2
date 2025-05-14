@@ -14,7 +14,7 @@ with open("labels.pkl", "rb") as f:
 labels = {v: k for k, v in class_indices.items()}
 
 # Ruta a la imagen de prueba
-image_path = "asl/asl_alphabet_test/asl_alphabet_test/I_test.jpg"  # Cambia esto según tu imagen
+image_path = "asl/asl_alphabet_test/asl_alphabet_test/D_test.jpg"  # Cambia esto según tu imagen
 
 # Preprocesar la imagen
 img = image.load_img(image_path, target_size=(64, 64), color_mode='rgb')
